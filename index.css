@@ -1,0 +1,139 @@
+*{
+   padding: 0;
+   margin: 0; 
+   box-sizing: border-box;
+}
+.My_Class{
+    height: 100vh; 
+    width: 100%;
+    background-image: url(BG.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    color: rgb(0, 225, 255);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 40%;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border:1px solid transparent;
+    transition: transform 0.5s;
+}
+ul li:hover{
+    transform: scale(1.5);
+    color: rgb(58, 220, 241);
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+h1{
+  
+    color: rgb(43, 155, 170);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+h2{
+    color: black;;
+    margin: 20px 0 20px;
+    font-size: 70px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+h2:hover{
+    transform: scale(1.05)
+}
+h3{
+    color: rgb(103, 191, 202);
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+h4{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.Share{
+    display: flex;
+    border: 1px solid transparent;
+    margin-bottom: 15px;
+}
+#link{
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+#youtube{
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+#instagram{
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+#twitter{
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+#Pinterest{
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.input form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+.input form input:first-child {
+  width: 100%;
+  display: inline-block;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid rgb(58, 220, 241);
+  border-radius: 30px;
+}
+.input form input:last-child {
+    position: absolute;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: rgb(58, 220, 241);
+    color: white;
+    top: 6px;
+    right: 10px;
+    transition: transform 0.5s;
+}
+.input form input:last-child:hover{
+    transform: scale(1.05)
+}
